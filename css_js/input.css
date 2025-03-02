@@ -1,0 +1,69 @@
+#input-hanzi {
+    padding: 15px; /* 增大内边距，让输入框内更宽敞，方便触控输入 */
+    width: 70%; /* 适当增大宽度占比，使其在手机屏幕上显示更宽一点 */
+    margin-bottom: 20px; /* 增大底部外边距，元素间距更明显 */
+    border: 2px solid #ccc; /* 加粗边框，视觉上更清晰 */
+    border-radius: 8px; /* 增大圆角半径，让外观更圆润柔和 */
+    font-size: 18px; /* 增大字体大小，便于查看输入内容 */
+}
+
+#create-buttons {
+    padding: 15px 30px; /* 增加按钮内边距，增大点击区域 */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px; /* 增大圆角半径 */
+    cursor: pointer;
+    font-size: 20px; /* 增大字体大小，方便阅读按钮文字 */
+}
+
+#button-container {
+    margin-top: 30px; /* 增大顶部外边距，与上方元素拉开距离 */
+}
+
+#button-container button {
+    padding: 15px 25px; /* 增加按钮内边距，使点击更舒适 */
+    margin-right: 15px; /* 增大右侧外边距，按钮之间间距更合适 */
+    margin-bottom: 15px; /* 增大底部外边距 */
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 8px; /* 增大圆角半径 */
+    cursor: pointer;
+    font-size: 18px; /* 增大字体大小，清晰显示汉字 */
+}
+
+#current-hanzi-display {
+    margin-top: 30px; /* 增大顶部外边距 */
+    font-size: 22px; /* 增大字体大小，更醒目地显示当前选中汉字信息 */
+    color: #333;
+}
+
+#animation-target {
+    background-color: white; /* 设置背景底色为白色（可按需调整） */
+    background-image:
+        linear-gradient(90deg, transparent 49.7%, gray 49.8%,gray 50.2%,transparent 50.3%),
+        linear-gradient(0deg, transparent 49.7%, gray 49.8%,gray 50.2%,transparent 50.3%),
+        linear-gradient(45deg, transparent 49.8%, gray 49.9%,gray 50.1%,transparent 50.2%),
+        linear-gradient(-45deg, transparent 49.8%, gray 49.9%,gray 50.1%,transparent 50.2%);
+        /*linear-gradient(0deg, transparent 49%, gray 25%, gray 75%, transparent 51%);
+        linear-gradient(45deg, transparent 0%, gray 0%, gray 100%, transparent 100%),
+        linear-gradient(-45deg, transparent 0%, gray 0%, gray 100%, transparent 100%);*/
+    background-size: 100% 100% 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#quiz-target {
+    background-color: white; /* 设置背景底色为白色（可按需调整） */
+    background-image:
+        linear-gradient(90deg, transparent 49.7%, gray 49.8%,gray 50.2%,transparent 50.3%),
+        linear-gradient(0deg, transparent 49.7%, gray 49.8%,gray 50.2%,transparent 50.3%),
+        linear-gradient(45deg, transparent 49.8%, gray 49.9%,gray 50.1%,transparent 50.2%),
+        linear-gradient(-45deg, transparent 49.8%, gray 49.9%,gray 50.1%,transparent 50.2%);
+        /*linear-gradient(0deg, transparent 49%, gray 25%, gray 75%, transparent 51%);
+        linear-gradient(45deg, transparent 0%, gray 0%, gray 100%, transparent 100%),
+        linear-gradient(-45deg, transparent 0%, gray 0%, gray 100%, transparent 100%);*/
+    background-size: 100% 100% 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
